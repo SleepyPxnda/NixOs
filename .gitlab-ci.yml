@@ -8,5 +8,6 @@ jupiter-build:
   script:
     - ls -la
     - nix-build --version
-    - nix build machines/jupiter/configuration.nix
+    - cd machines
+    - nix build 
     
