@@ -7,7 +7,7 @@
     nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
     };
 
-  outputs = inputs@{ self, flake-parts, deploy-rs, ... }:
+  outputs = inputs@{ self, flake-parts ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
 
       imports = [
