@@ -8,5 +8,5 @@ jupiter-build:
   script:
     - ls -la
     - nix-build --version
-    - sudo nix build --extra-experimental-features nix-command --extra-experimental-features flakes
+    - nix build --extra-experimental-features nix-command --extra-experimental-features flakes
     
