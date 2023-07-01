@@ -7,5 +7,6 @@ jupiter-build:
   stage: build
   script:
     - ls -la
-    - nix build
+    - nix-build --version
+    - nix build machines/jupiter/configuration.nix
     
