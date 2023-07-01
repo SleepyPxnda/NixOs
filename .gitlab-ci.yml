@@ -9,5 +9,5 @@ jupiter-build:
     - ls -la
     - nix-build --version
     - cd machines
-    - nix build 
+    - nix build --extra-experimental-features nix-command
     
