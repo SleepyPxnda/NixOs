@@ -1,12 +1,10 @@
 stages:
     - build
 
-jobs:
-  jupiter-build:
-    image: nixos/nix
-    stage: build
-    script:
-      - nix build
-    rules:
-      when: manual
+
+jupiter-build:
+  image: nixos/nix
+  stage: build
+  script:
+    - nix build
     
