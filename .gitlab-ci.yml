@@ -6,5 +6,6 @@ jupiter-build:
   image: nixos/nix
   stage: build
   script:
+    - ls -la
     - nix build
     
