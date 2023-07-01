@@ -8,6 +8,5 @@ jupiter-build:
   script:
     - ls -la
     - nix-build --version
-    - cd machines
     - nix build --extra-experimental-features nix-command
     
