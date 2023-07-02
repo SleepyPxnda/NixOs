@@ -1,0 +1,8 @@
+{ ... }:
+{
+  imports = [
+    ./apps
+    ./hyprland
+    ./zsh
+  ];
+}
