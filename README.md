@@ -1,5 +1,7 @@
 # Private NixOS Configuration
 
+[Felix Nixos Config](https://github.com/Stunkymonkey/nixos)
+
 ## structure
 
 ```
