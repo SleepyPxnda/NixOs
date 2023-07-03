@@ -41,6 +41,7 @@
 
   time.timeZone = "Europe/Berlin";
   services.timesyncd.enable = true;
+  boot.loader.grub.enable = true;
 
   # Enable networking
   networking.networkmanager.enable = true;
