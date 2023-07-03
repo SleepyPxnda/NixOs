@@ -13,6 +13,14 @@
       imports = [
         ./machines/configuration.nix
       ];
+
+      perSystem = { self', inputs', config, pkgs, system, ... }: {
+        # make pkgs available to all `perSystem` functions
+        _module.args.pkgs = import inputs.nixpkgs {
+          inherit system;
+        };
+      };
+
       systems = [ "x86_64-linux" ];
     };
 }
