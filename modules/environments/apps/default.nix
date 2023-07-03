@@ -21,7 +21,7 @@ let
 	    keepassxc
 	    nextcloud-client
 	    neovim
-    ] ++ lib.optionals cf.dev_apps [
+    ] ++ lib.optionals cfg.dev_apps [
         vscode
         jetbrains.webstorm
         jetbrains.goland
