@@ -27,7 +27,6 @@ let
         jetbrains.goland
         jetbrains.pycharm-professional
         jetbrains.idea-ultimate
-    ];
-
-    
+      ];
+    };    
   }
