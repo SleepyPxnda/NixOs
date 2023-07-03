@@ -50,5 +50,12 @@ in
         ./jupiter/configuration.nix
       ];
     };
+    mibook = nixosSystem {
+      system = "x86_64-linux";
+      modules = defaultModules ++ [
+        # nixos-hardware.nixosModules.mibook
+        ./mibook/configuration.nix
+      ];
+    };
   };
 }
