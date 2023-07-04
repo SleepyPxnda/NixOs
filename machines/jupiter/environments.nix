@@ -10,6 +10,7 @@ in
     apps = {
       desktop_apps = true;
       dev_apps = true;
+      gnome_apps = true;
     };
   };
 }

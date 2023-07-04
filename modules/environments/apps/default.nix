@@ -9,6 +9,7 @@ let
   options.my.profiles.apps = with lib; {
     desktop_apps = mkEnableOption "Basic Apps";
     dev_apps = mkEnableOption "Development Apps";
+    gnome_apps = mkEnableOption "Gnome Extentions and Configuration";
   };
 
   config = lib.mkIf cfg.desktop_apps {
@@ -27,6 +28,10 @@ let
         jetbrains.goland
         jetbrains.pycharm-professional
         jetbrains.idea-ultimate
+      ] ++ lib.optionals cfg.gnome_apps [
+          gnomeExtensions.tweaks-in-system-menu
+          gnomeExtensions.wireless-hid
+          gnome.gnome-tweaks
       ];
     };    
   }
