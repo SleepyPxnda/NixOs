@@ -13,8 +13,8 @@ let
 
   config = lib.mkIf cfg.desktop_apps {
     users.users.finn.packages = with pkgs; [
-        firefox
-        thunderbird
+      firefox
+      thunderbird
 	    google-chrome
 	    discord
 	    spotify
