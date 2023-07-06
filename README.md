@@ -24,4 +24,3 @@
   - [ ]  Hyprland
 
 ## usage
-test
