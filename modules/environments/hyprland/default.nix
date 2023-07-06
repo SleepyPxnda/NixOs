@@ -11,8 +11,12 @@ let
 
   config = lib.mkIf cfg.enable {
     programs.hyprland.enable = true;
+    users.users.finn.packages = with pkgs; [
+      wofi
+      mako
+    ];
     
-    };   
+  };   
 
 
 }
