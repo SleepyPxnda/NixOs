@@ -12,6 +12,8 @@
       url = "github:nix-community/nixos-generators";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    hyprland.url = "github:hyprwm/Hyprland";
+
     };
 
   outputs = inputs@{ self, flake-parts, ... }:
