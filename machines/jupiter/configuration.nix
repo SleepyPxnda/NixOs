@@ -12,6 +12,7 @@
   
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.kernelPackages = pkgs.linuxPackages_5_15;
 
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
