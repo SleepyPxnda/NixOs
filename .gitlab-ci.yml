@@ -9,5 +9,5 @@ jupiter-build:
     - ls -la
     - nix-build --version
     - nix flake show --extra-experimental-features 'nix-command flakes'
-    - nix build '#nixosConfigurations.jupiter.config.system.build.toplevel' --extra-experimental-features 'nix-command flakes' 
+    - nix build '.#nixosConfigurations.jupiter.config.system.build.toplevel' --extra-experimental-features 'nix-command flakes' 
     
