@@ -3,7 +3,7 @@
 
 {
   imports = [
-    ./bluetooth
+    #./bluetooth
     #./debug
     #./drive-monitor
     #./firmware
@@ -12,6 +12,6 @@
     #./yubikey
     #./sound
     #./thunderbolt
-    ./wifi
+    #./wifi
   ];
 }
