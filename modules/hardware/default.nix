@@ -10,8 +10,8 @@
     #./graphics
     #./keychron
     #./yubikey
-    ./sound
-    ./thunderbolt
+    #./sound
+    #./thunderbolt
     ./wifi
   ];
 }
