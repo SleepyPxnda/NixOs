@@ -13,8 +13,4 @@ in
       gnome_apps = true;
     };
   };
-
-my.hardware = {
-  wifi.enable = true;
-};
 }
