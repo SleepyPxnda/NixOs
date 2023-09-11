@@ -12,7 +12,7 @@ let
   config = lib.mkIf cfg.enable {
     programs.zsh.enable = true;
     programs.zsh.ohMyZsh.enable = true;
-    programs.zsh.ohMyZsh.theme = "Heapbytes" 
+    programs.zsh.ohMyZsh.theme = "Heapbytes";
     users.defaultUserShell = pkgs.zsh;
     } ;  
 
