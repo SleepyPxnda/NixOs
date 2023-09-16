@@ -12,15 +12,14 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
-  hardware.enableRedistributableFirmware = true;
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/f4901cbb-db30-4f14-8d8e-9dbb55aaf098";
+    { device = "/dev/disk/by-uuid/c95c64ad-f131-4bde-9bca-a7a3692173da";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/1121-FAE5";
+    { device = "/dev/disk/by-uuid/0D77-17BB";
       fsType = "vfat";
     };
 
