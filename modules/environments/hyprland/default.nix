@@ -18,7 +18,9 @@ let
     users.users.finn.packages = with pkgs; [
       wofi
       mako
+      kitty
       waybar
+      libsForQt5.dolphin
     ];
     hardware = {
     # Opengl
