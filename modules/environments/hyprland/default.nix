@@ -19,6 +19,7 @@ let
       wofi
       mako
       kitty
+      hyprpaper
       waybar
       libsForQt5.dolphin
     ];
