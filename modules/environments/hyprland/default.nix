@@ -19,6 +19,8 @@ let
       hyprpaper
       waybar
       libsForQt5.dolphin
+      libsForQt5.systemsettings
+      libsForQt5.polkit-kde-agent
     ];
     hardware = {
     # Opengl

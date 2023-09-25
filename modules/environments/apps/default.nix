@@ -22,6 +22,8 @@ let
 	    keepassxc
 	    nextcloud-client
 	    neovim
+	    pipewire
+	    wireplumber
     ] ++ lib.optionals cfg.dev_apps [
         vscode
         jetbrains.webstorm
