@@ -3,7 +3,7 @@
 
 {
   imports = [
-    #./bluetooth
+    ./bluetooth
     #./debug
     #./drive-monitor
     #./firmware
