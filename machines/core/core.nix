@@ -37,6 +37,7 @@
     whois
     zip
     unzip
+    networkmanager
   ];
 
   time.timeZone = "Europe/Berlin";
