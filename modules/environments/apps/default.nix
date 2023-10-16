@@ -30,6 +30,7 @@ let
         jetbrains.goland
         jetbrains.pycharm-professional
         jetbrains.idea-ultimate
+        go
       ] ++ lib.optionals cfg.gnome_apps [
           gnomeExtensions.tweaks-in-system-menu
           gnomeExtensions.wireless-hid
