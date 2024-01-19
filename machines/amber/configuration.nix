@@ -24,6 +24,8 @@
   # services.xserver.enable = true;
   # services.xserver.displayManager.sddm.enable = tru;
 
+  services.openssh.enable = true;
+
   # Configure keymap in X11
   services.xserver = {
     layout = "de";
