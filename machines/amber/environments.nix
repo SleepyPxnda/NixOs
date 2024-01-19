@@ -12,6 +12,7 @@ in
       dev_apps = false;
       gnome_apps = false;
     };
+    docker.enable = true;
   };
 
   my.hardware = {
