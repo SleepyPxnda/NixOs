@@ -4,6 +4,6 @@
     ./apps
     ./hyprland
     ./zsh
-    ./dev_server
+  #  ./dev_server
   ];
 }
