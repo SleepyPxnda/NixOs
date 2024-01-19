@@ -12,7 +12,7 @@ let
       nvidiaPatches = true;
       xwayland.enable = true;
     };
-    users.users.finn.packages = with pkgs; [
+    users.users.felix.packages = with pkgs; [
       wofi
       mako
       kitty
