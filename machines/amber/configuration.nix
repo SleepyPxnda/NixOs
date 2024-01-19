@@ -5,7 +5,7 @@
     ./disks.nix
     ./hardware-configuration.nix
     ./environments.nix
-    # ./system.nix use docker here
+    ./system.nix # use docker here
   ];
 
   networking.hostName = "amber";
