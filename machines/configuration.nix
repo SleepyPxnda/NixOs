@@ -45,18 +45,11 @@ in
 {
   flake.nixosConfigurations = {
     # use your hardware- model from this list: https://github.com/NixOS/nixos-hardware/blob/master/flake.nix
-    jupiter = nixosSystem {
+    amber = nixosSystem {
       system = "x86_64-linux";
       modules = defaultModules ++ [
         # nixos-hardware.nixosModules.bmax-b7-power
-        ./jupiter/configuration.nix
-      ];
-    };
-    mibook = nixosSystem {
-      system = "x86_64-linux";
-      modules = defaultModules ++ [
-        # nixos-hardware.nixosModules.mibook
-        ./mibook/configuration.nix
+        ./amber/configuration.nix
       ];
     };
   };

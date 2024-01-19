@@ -1,10 +1,10 @@
 { config, pkgs, lib, ... }:
 {
 
-  users.users.finn = {
+  users.users.felix = {
     isNormalUser = true;
-    home = "/home/finn";
-    group = "finn";
+    home = "/home/felix";
+    group = "felix";
     extraGroups = [
       "adbusers" # adb control
       "audio" # sound control
@@ -21,7 +21,7 @@
     # openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFx6OLwL9MbkD3mnMsv+xrzZHN/rwCTgVs758SCLG0h finn@thinkman" ];
   };
 
-  users.groups.finn = {
+  users.groups.felix = {
     gid = 1000;
   };
 }
